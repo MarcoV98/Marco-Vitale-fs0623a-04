@@ -1,0 +1,124 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: url('/assets/img/sfondo.png');
+    background-repeat: repeat-y;
+    
+}
+
+#content {
+    max-width: 440px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 18px;
+    margin-bottom: 18px;
+    
+}
+
+header {
+    background-color: #008fb1;
+    background-image: linear-gradient(#008fb1, #006988);
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    box-shadow: 5px 5px 8px #888888;
+}
+
+header img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    
+}
+
+header p {
+    text-align: center;
+    padding: 1rem;
+    font-size: 1.2em;
+    margin-bottom: 1rem;
+}
+
+header ul {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+header a:link{
+    color: white;
+    text-decoration: none;
+}
+
+header li {
+    margin-bottom: 10px;
+}
+
+main {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    background-color: white;
+    box-shadow: 5px 5px 8px #888888;
+    padding: 1rem;
+    font-size: 1em;
+    line-height: 1.5;
+}
+
+h1 {
+    font-size: 1.8em;
+    font-weight: bold;
+    padding: 1rem;
+    
+}
+ 
+#title p{
+    color: gray;
+    margin-bottom: 2rem;
+}
+
+.section p {
+    margin-bottom: 2rem;
+}
+
+#fistsct {
+    margin-top: 2rem;
+}
+
+#section1 span {
+    font-weight: bold;
+    color: #aa2072;
+}
+
+#section1 code {
+    background-color: lightgray;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+caption {
+    font-style: italic;
+    font-weight: bold;
+}
+
+table, td, th {
+    border: 1px solid;
+}
+
+th {
+    background-color: #008fb1;
+}
+
+tr:nth-child(even) {background-color: #f2f2f2;}
+
+iframe {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
